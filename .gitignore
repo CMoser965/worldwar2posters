@@ -13,3 +13,8 @@ vendor/
 
 # temporarily ignore gemfile.lock
 Gemfile.lock
+
+# Ignore metadata files
+Metadata_WWIIposters_FINAL.csv
+copy.xlsx
+template_metadata.xlsx

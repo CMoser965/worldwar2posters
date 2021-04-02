@@ -8,23 +8,23 @@
 #
 # featured image is used in home page banner and in meta markup to represent the collection
 # use either an objectid (from an item in this collect), a relative location of an image in this repo, or a full url to an image elsewhere
-featured-image: demo_psychiana548
+featured-image: https://cdm17279.contentdm.oclc.org/customizations/collection/WW2Posters/DC%20Logo%20w%20New%20OSU%20Brand.png
 home-title-y-padding: 12em # the margin from the top your title portion will appear.
 home-banner-image-position: center # [options: top, center, bottom] Default: top
-carousel-height: # in px, but don't include the "px"; default is 450.
+carousel-height: 500 # in px, but don't include the "px"; default is 450.
 # carousel can feature specific item types: image,pdf,youtube,thumbs
-carousel-type: image
-featured-subjects: #separate semi-colon(';') - if left blank, will be automatically generated to create top 5 subjects
-featured-subjects-max: 6 # set number of top subjects to display if auto generating
-featured-locations: Moscow, ID #separate by semi-colon(';') - if left blank, will be automatically generated to create top 5 locations
-featured-locations-max: 3
+carousel-type: pdf
+featured-subjects: ww2;posters;propaganda #separate semi-colon(';') - if left blank, will be automatically generated to create top 5 subjects
+featured-subjects-max: 3 # set number of top subjects to display if auto generating
+featured-locations: Oklahoma State University  #separate by semi-colon(';') - if left blank, will be automatically generated to create top 5 locations
+featured-locations-max: 1
 
 ##########
 # ABOUT PAGE
 #
 # Featured image on About page - if left blank, CB will use image featured on the home page
 # use either an objectid (from an item in this collect), a relative location of an image in this repo, or a full url to an image elsewhere
-about-featured-image: demo_psychiana565
+about-featured-image: 
 
 ##########
 # BROWSE PAGE
@@ -69,7 +69,7 @@ map-cluster-radius: 25 # size of clusters, from ~ 10 to 80
 # TIMELINE PAGE
 #
 # set either year-navigation or year-nav-increment to generate a year nav dropdown
-year-navigation: #"1900;1905;1910;1915;1920" # manually set years to appear in dropdown nav
+year-navigation: 1939;1940;1941;1942;1943;1944;1945 #"1900;1905;1910;1915;1920" # manually set years to appear in dropdown nav
 year-nav-increment: 5 # set increments to auto gen nav years
 
 ##########
@@ -85,9 +85,9 @@ metadata-facets-fields: "subject,creator,format"
 # ADVANCED OPTIONS
 #
 # CDM image % for IIIF
-image-percentage-large: # default 70
-image-percentage-medium: # default 40 
-image-percentage-small: # default 20
+image-percentage-large: 50 # default 70
+image-percentage-medium: 30 # default 40 
+image-percentage-small: 10 # default 20
 
 # NAVBAR COLORS
 # navbar text color

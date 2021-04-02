@@ -27,7 +27,7 @@ description: "The collection contains 168 posters printed by the United States G
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
 keywords: world war II;history;stamps;war bonds;norman rockwell; 
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: Christian Moser
+author: christianmoser
 # Organization branding
 organization-name: "Edmon Low Library, Oklahoma State University"
 organization-link: https://library.okstate.edu/
@@ -39,9 +39,9 @@ organization-logo-nav: https://omni.okstate.edu/_resources_global/pattern-lab-v1
 # COLLECTION SETTINGS
 #
 # choose metadata: this is the name of the csv file in your _data directory that describes the objects in your collection
-metadata: ww2posters 
+metadata: ww2_posters 
 # contentdm collection name, matches collection ID used by CDM
-cdm-collection-id: WW2Posters 
+cdm-collection-id: ww2_posters 
 # CONTENTdm server url
 cdm-url: https://cdm17279.contentdm.oclc.org/digital/collection/WW2Posters
 # page generation settings 

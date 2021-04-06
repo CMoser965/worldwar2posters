@@ -1,4 +1,5 @@
 field,display_name,search
+title, Title
 date,Date,true
 creator,Creator,true
 subject,Subjects,true
